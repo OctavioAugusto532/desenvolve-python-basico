@@ -1,0 +1,23 @@
+Este algoritmo tem o objetivo de calcular o resultado da multiplicação de um número inteiro "n" (de 1 a 10) por 9, utilizando o truque matemático da tabuada do 9.
+
+Passo 1 – Entrada de dados:
+O programa solicita ao usuário que digite um número inteiro "n", entre 1 e 10.
+
+Passo 2 – Processamento:
+Usamos a seguinte regra:
+- Subtraímos 1 do número digitado (n - 1). Este será o valor das dezenas.
+- Subtraímos o número digitado de 10 (10 - n). Este será o valor das unidades.
+- Multiplicamos a dezena por 10 e somamos com a unidade para obter o resultado final.
+
+Fórmula:
+9 × n = (n - 1) × 10 + (10 - n)
+
+Passo 3 – Saída de dados:
+O programa imprime o resultado da multiplicação utilizando essa fórmula.
+
+Exemplo:
+Se n = 4
+(n - 1) = 3
+(10 - n) = 6
+Resultado: 3 × 10 + 6 = 36
+Portanto, 9 × 4 = 36
